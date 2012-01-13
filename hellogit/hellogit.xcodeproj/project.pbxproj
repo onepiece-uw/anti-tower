@@ -199,6 +199,9 @@
 /* Begin PBXProject section */
 		D8AE05AD14C0BD5B00B8943A /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = D8AE05B014C0BD5B00B8943A /* Build configuration list for PBXProject "hellogit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -443,6 +446,7 @@
 				D8AE05EF14C0BD5C00B8943A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8AE05F014C0BD5C00B8943A /* Build configuration list for PBXNativeTarget "hellogitTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +455,7 @@
 				D8AE05F214C0BD5C00B8943A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
