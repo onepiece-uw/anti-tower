@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface hellogitViewController : UIViewController {
-    
+    IBOutlet UILabel *label;
 }
+
+-(IBAction)hello:(id)sender;
 
 @end
