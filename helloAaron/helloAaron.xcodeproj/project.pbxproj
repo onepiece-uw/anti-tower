@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD5E0F0314C32702007669F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5E0F0214C32702007669F0 /* UIKit.framework */; };
+		DD5E0F0514C32702007669F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5E0F0414C32702007669F0 /* Foundation.framework */; };
+		DD5E0F0714C32702007669F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5E0F0614C32702007669F0 /* CoreGraphics.framework */; };
+		DD5E0F0D14C32702007669F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD5E0F0B14C32702007669F0 /* InfoPlist.strings */; };
+		DD5E0F0F14C32702007669F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E0F0E14C32702007669F0 /* main.m */; };
+		DD5E0F1314C32702007669F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E0F1214C32702007669F0 /* AppDelegate.m */; };
+		DD5E0F1614C32702007669F0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E0F1514C32702007669F0 /* RootViewController.m */; };
+		DD5E0F1914C32702007669F0 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E0F1814C32702007669F0 /* DataViewController.m */; };
+		DD5E0F1C14C32702007669F0 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E0F1B14C32702007669F0 /* ModelController.m */; };
+		DD5E0F1F14C32702007669F0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5E0F1D14C32702007669F0 /* MainStoryboard.storyboard */; };
+		DD5E0F2714C32703007669F0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5E0F2614C32703007669F0 /* SenTestingKit.framework */; };
+		DD5E0F2814C32703007669F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5E0F0214C32702007669F0 /* UIKit.framework */; };
+		DD5E0F2914C32703007669F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5E0F0414C32702007669F0 /* Foundation.framework */; };
+		DD5E0F3114C32703007669F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD5E0F2F14C32703007669F0 /* InfoPlist.strings */; };
+		DD5E0F3414C32703007669F0 /* helloAaronTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5E0F3314C32703007669F0 /* helloAaronTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD5E0F2A14C32703007669F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5E0EF514C32702007669F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5E0EFD14C32702007669F0;
+			remoteInfo = helloAaron;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD5E0EFE14C32702007669F0 /* helloAaron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloAaron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5E0F0214C32702007669F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD5E0F0414C32702007669F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD5E0F0614C32702007669F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD5E0F0A14C32702007669F0 /* helloAaron-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "helloAaron-Info.plist"; sourceTree = "<group>"; };
+		DD5E0F0C14C32702007669F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD5E0F0E14C32702007669F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD5E0F1014C32702007669F0 /* helloAaron-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helloAaron-Prefix.pch"; sourceTree = "<group>"; };
+		DD5E0F1114C32702007669F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD5E0F1214C32702007669F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD5E0F1414C32702007669F0 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DD5E0F1514C32702007669F0 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DD5E0F1714C32702007669F0 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		DD5E0F1814C32702007669F0 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		DD5E0F1A14C32702007669F0 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		DD5E0F1B14C32702007669F0 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		DD5E0F1E14C32702007669F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DD5E0F2514C32703007669F0 /* helloAaronTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloAaronTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5E0F2614C32703007669F0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DD5E0F2E14C32703007669F0 /* helloAaronTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "helloAaronTests-Info.plist"; sourceTree = "<group>"; };
+		DD5E0F3014C32703007669F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD5E0F3214C32703007669F0 /* helloAaronTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloAaronTests.h; sourceTree = "<group>"; };
+		DD5E0F3314C32703007669F0 /* helloAaronTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloAaronTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD5E0EFB14C32702007669F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5E0F0314C32702007669F0 /* UIKit.framework in Frameworks */,
+				DD5E0F0514C32702007669F0 /* Foundation.framework in Frameworks */,
+				DD5E0F0714C32702007669F0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5E0F2114C32703007669F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5E0F2714C32703007669F0 /* SenTestingKit.framework in Frameworks */,
+				DD5E0F2814C32703007669F0 /* UIKit.framework in Frameworks */,
+				DD5E0F2914C32703007669F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD5E0EF314C32702007669F0 = {
+			isa = PBXGroup;
+			children = (
+				DD5E0F0814C32702007669F0 /* helloAaron */,
+				DD5E0F2C14C32703007669F0 /* helloAaronTests */,
+				DD5E0F0114C32702007669F0 /* Frameworks */,
+				DD5E0EFF14C32702007669F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD5E0EFF14C32702007669F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5E0EFE14C32702007669F0 /* helloAaron.app */,
+				DD5E0F2514C32703007669F0 /* helloAaronTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD5E0F0114C32702007669F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD5E0F0214C32702007669F0 /* UIKit.framework */,
+				DD5E0F0414C32702007669F0 /* Foundation.framework */,
+				DD5E0F0614C32702007669F0 /* CoreGraphics.framework */,
+				DD5E0F2614C32703007669F0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD5E0F0814C32702007669F0 /* helloAaron */ = {
+			isa = PBXGroup;
+			children = (
+				DD5E0F1114C32702007669F0 /* AppDelegate.h */,
+				DD5E0F1214C32702007669F0 /* AppDelegate.m */,
+				DD5E0F1414C32702007669F0 /* RootViewController.h */,
+				DD5E0F1514C32702007669F0 /* RootViewController.m */,
+				DD5E0F1714C32702007669F0 /* DataViewController.h */,
+				DD5E0F1814C32702007669F0 /* DataViewController.m */,
+				DD5E0F1A14C32702007669F0 /* ModelController.h */,
+				DD5E0F1B14C32702007669F0 /* ModelController.m */,
+				DD5E0F1D14C32702007669F0 /* MainStoryboard.storyboard */,
+				DD5E0F0914C32702007669F0 /* Supporting Files */,
+			);
+			path = helloAaron;
+			sourceTree = "<group>";
+		};
+		DD5E0F0914C32702007669F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD5E0F0A14C32702007669F0 /* helloAaron-Info.plist */,
+				DD5E0F0B14C32702007669F0 /* InfoPlist.strings */,
+				DD5E0F0E14C32702007669F0 /* main.m */,
+				DD5E0F1014C32702007669F0 /* helloAaron-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD5E0F2C14C32703007669F0 /* helloAaronTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD5E0F3214C32703007669F0 /* helloAaronTests.h */,
+				DD5E0F3314C32703007669F0 /* helloAaronTests.m */,
+				DD5E0F2D14C32703007669F0 /* Supporting Files */,
+			);
+			path = helloAaronTests;
+			sourceTree = "<group>";
+		};
+		DD5E0F2D14C32703007669F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD5E0F2E14C32703007669F0 /* helloAaronTests-Info.plist */,
+				DD5E0F2F14C32703007669F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD5E0EFD14C32702007669F0 /* helloAaron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5E0F3714C32703007669F0 /* Build configuration list for PBXNativeTarget "helloAaron" */;
+			buildPhases = (
+				DD5E0EFA14C32702007669F0 /* Sources */,
+				DD5E0EFB14C32702007669F0 /* Frameworks */,
+				DD5E0EFC14C32702007669F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = helloAaron;
+			productName = helloAaron;
+			productReference = DD5E0EFE14C32702007669F0 /* helloAaron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD5E0F2414C32703007669F0 /* helloAaronTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5E0F3A14C32703007669F0 /* Build configuration list for PBXNativeTarget "helloAaronTests" */;
+			buildPhases = (
+				DD5E0F2014C32703007669F0 /* Sources */,
+				DD5E0F2114C32703007669F0 /* Frameworks */,
+				DD5E0F2214C32703007669F0 /* Resources */,
+				DD5E0F2314C32703007669F0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5E0F2B14C32703007669F0 /* PBXTargetDependency */,
+			);
+			name = helloAaronTests;
+			productName = helloAaronTests;
+			productReference = DD5E0F2514C32703007669F0 /* helloAaronTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD5E0EF514C32702007669F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DD5E0EF814C32702007669F0 /* Build configuration list for PBXProject "helloAaron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD5E0EF314C32702007669F0;
+			productRefGroup = DD5E0EFF14C32702007669F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD5E0EFD14C32702007669F0 /* helloAaron */,
+				DD5E0F2414C32703007669F0 /* helloAaronTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD5E0EFC14C32702007669F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5E0F0D14C32702007669F0 /* InfoPlist.strings in Resources */,
+				DD5E0F1F14C32702007669F0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5E0F2214C32703007669F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5E0F3114C32703007669F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD5E0F2314C32703007669F0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD5E0EFA14C32702007669F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5E0F0F14C32702007669F0 /* main.m in Sources */,
+				DD5E0F1314C32702007669F0 /* AppDelegate.m in Sources */,
+				DD5E0F1614C32702007669F0 /* RootViewController.m in Sources */,
+				DD5E0F1914C32702007669F0 /* DataViewController.m in Sources */,
+				DD5E0F1C14C32702007669F0 /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5E0F2014C32703007669F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5E0F3414C32703007669F0 /* helloAaronTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD5E0F2B14C32703007669F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5E0EFD14C32702007669F0 /* helloAaron */;
+			targetProxy = DD5E0F2A14C32703007669F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD5E0F0B14C32702007669F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5E0F0C14C32702007669F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD5E0F1D14C32702007669F0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5E0F1E14C32702007669F0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		DD5E0F2F14C32703007669F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5E0F3014C32703007669F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD5E0F3514C32703007669F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD5E0F3614C32703007669F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD5E0F3814C32703007669F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloAaron/helloAaron-Prefix.pch";
+				INFOPLIST_FILE = "helloAaron/helloAaron-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD5E0F3914C32703007669F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloAaron/helloAaron-Prefix.pch";
+				INFOPLIST_FILE = "helloAaron/helloAaron-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DD5E0F3B14C32703007669F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/helloAaron.app/helloAaron";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloAaron/helloAaron-Prefix.pch";
+				INFOPLIST_FILE = "helloAaronTests/helloAaronTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DD5E0F3C14C32703007669F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/helloAaron.app/helloAaron";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "helloAaron/helloAaron-Prefix.pch";
+				INFOPLIST_FILE = "helloAaronTests/helloAaronTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD5E0EF814C32702007669F0 /* Build configuration list for PBXProject "helloAaron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5E0F3514C32703007669F0 /* Debug */,
+				DD5E0F3614C32703007669F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5E0F3714C32703007669F0 /* Build configuration list for PBXNativeTarget "helloAaron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5E0F3814C32703007669F0 /* Debug */,
+				DD5E0F3914C32703007669F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD5E0F3A14C32703007669F0 /* Build configuration list for PBXNativeTarget "helloAaronTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5E0F3B14C32703007669F0 /* Debug */,
+				DD5E0F3C14C32703007669F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD5E0EF514C32702007669F0 /* Project object */;
+}
